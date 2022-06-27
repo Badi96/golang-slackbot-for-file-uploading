@@ -5,7 +5,7 @@
 ```go get "github.com/slack-go/slack"```
 ```go mod tidy```
 ```go get github.com/slack-go/slack```
-```go build```
+```go build```s
 
 ## Prerequisites
 - Download and install Go (https://golang.org/dl/)
