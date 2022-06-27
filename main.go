@@ -9,8 +9,8 @@ import (
 
 func main() {
 	//Never share token with someone else!
-	os.Setenv("SLACK_BOT_TOKEN", "REPLACE_WITH_SLACK_BOT_TOKEN") // token from Oauth & Permissions
-	os.Setenv("CHANNEL_ID", "REPLACE_WITH_CANNEL_ID")            // the channel ID in the slack channel of the workspace
+	os.Setenv("SLACK_BOT_TOKEN", "Replace_with_Bot_token_here") // token from Oauth & Permissions
+	os.Setenv("CHANNEL_ID", "Repace_with_channel_id")           // the channel ID in the slack channel of the workspace
 	api := slack.New(os.Getenv("SLACK_BOT_TOKEN"))
 	ChannelArr := []string{os.Getenv("CHANNEL_ID")}
 	FileArr := []string{"cat.jpeg"}
